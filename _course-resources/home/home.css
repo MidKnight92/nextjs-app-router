@@ -2,6 +2,13 @@
   position: relative;
   height: 200px;
   margin: 0 -8px;
+  overflow: hidden;
+}
+
+.heroImage img {
+  max-height: 200px;
+  width: auto;
+  object-fit: cover;
 }
 
 .cta {
@@ -42,5 +49,13 @@ button {
 }
 
 .soundwavesImage {
+  position: relative;
   margin: 0 -8px;
+  overflow: hidden;
+}
+
+.soundwavesImage img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
